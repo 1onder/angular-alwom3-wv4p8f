@@ -40,6 +40,7 @@ export class ProfileEditorComponent {
 
   addAlias() {
     this.aliases.push(this.fb.control(''));
+  
   }
 
   removeAlias() {
